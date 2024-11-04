@@ -13,4 +13,14 @@ public class Operation {
     private double unitCost;
 
     private Integer quantity;
+
+    public Operation() {
+    }
+
+    public Operation(String operation, double unitCost, int quantity) {
+        this.operation = operation;
+        this.unitCost = unitCost;
+        this.quantity = quantity;
+    }
+
 }
